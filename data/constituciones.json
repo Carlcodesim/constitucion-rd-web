@@ -6,7 +6,8 @@
     "sourceLabel": "Consultoría Jurídica del Poder Ejecutivo",
     "sourceUrl": "https://www.consultoria.gov.do/Services/Constitutions",
     "sourceType": "colección oficial",
-    "detail": "Texto histórico disponible en la colección documental oficial."
+    "detail": "Texto histórico disponible en la colección documental oficial.",
+    "comparisonReady": false
   },
   {
     "year": 1854,
@@ -15,7 +16,8 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://tribunalconstitucional.gob.do/cec/publicaciones/la-constituci%C3%B3n-dominicana-y-sus-reformas-1844-2015-tomo-1/",
     "sourceType": "recopilación histórica",
-    "detail": "Versión incluida en la recopilación de Constituciones y reformas 1844–2015."
+    "detail": "Versión incluida en la recopilación de Constituciones y reformas 1844–2015.",
+    "comparisonReady": false
   },
   {
     "year": 1858,
@@ -24,7 +26,8 @@
     "sourceLabel": "Consultoría Jurídica del Poder Ejecutivo",
     "sourceUrl": "https://www.consultoria.gov.do/Services/Constitutions",
     "sourceType": "colección oficial",
-    "detail": "Versión histórica incluida en la colección documental oficial."
+    "detail": "Versión histórica incluida en la colección documental oficial.",
+    "comparisonReady": false
   },
   {
     "year": 1865,
@@ -33,7 +36,8 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://tribunalconstitucional.gob.do/cec/publicaciones/la-constituci%C3%B3n-dominicana-y-sus-reformas-1844-2015-tomo-1/",
     "sourceType": "recopilación histórica",
-    "detail": "Versión incluida en la recopilación histórica del Tribunal Constitucional."
+    "detail": "Versión incluida en la recopilación histórica del Tribunal Constitucional.",
+    "comparisonReady": false
   },
   {
     "year": 1963,
@@ -42,7 +46,8 @@
     "sourceLabel": "Consultoría Jurídica del Poder Ejecutivo",
     "sourceUrl": "https://www.consultoria.gov.do/Services/Constitutions",
     "sourceType": "colección oficial",
-    "detail": "Versión histórica disponible mediante la colección documental oficial."
+    "detail": "Versión histórica disponible mediante la colección documental oficial.",
+    "comparisonReady": false
   },
   {
     "year": 1966,
@@ -51,7 +56,8 @@
     "sourceLabel": "Consultoría Jurídica del Poder Ejecutivo",
     "sourceUrl": "https://www.consultoria.gov.do/Services/Constitutions",
     "sourceType": "colección oficial",
-    "detail": "Versión histórica disponible mediante la colección documental oficial."
+    "detail": "Versión histórica disponible mediante la colección documental oficial.",
+    "comparisonReady": false
   },
   {
     "year": 1994,
@@ -60,7 +66,8 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://tribunalconstitucional.gob.do/cec/publicaciones/la-constituci%C3%B3n-dominicana-y-sus-reformas-1844-2015-tomo-1/",
     "sourceType": "recopilación histórica",
-    "detail": "Reforma incluida en la recopilación histórica 1844–2015."
+    "detail": "Reforma incluida en la recopilación histórica 1844–2015.",
+    "comparisonReady": false
   },
   {
     "year": 2010,
@@ -69,7 +76,8 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://tribunalconstitucional.gob.do/cec/publicaciones/la-constituci%C3%B3n-dominicana-y-sus-reformas-1844-2015-tomo-2/",
     "sourceType": "recopilación histórica",
-    "detail": "Versión incluida en la recopilación histórica del Tribunal Constitucional."
+    "detail": "Versión incluida en la recopilación histórica del Tribunal Constitucional.",
+    "comparisonReady": false
   },
   {
     "year": 2015,
@@ -78,7 +86,8 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://www.tribunalconstitucional.gob.do/cec/publicaciones/constituci%C3%B3n-de-la-rep%C3%BAblica-dominicana-2015/",
     "sourceType": "publicación oficial",
-    "detail": "El Tribunal Constitucional publica una edición de la Constitución de 2015."
+    "detail": "El Tribunal Constitucional publica una edición de la Constitución de 2015.",
+    "comparisonReady": true
   },
   {
     "year": 2024,
@@ -87,6 +96,7 @@
     "sourceLabel": "Tribunal Constitucional",
     "sourceUrl": "https://tribunalconstitucional.gob.do/transparencia/base-legal-de-la-instituci%C3%B3n/constituci%C3%B3n-de-la-rep%C3%BAblica-dominicana/",
     "sourceType": "texto oficial vigente",
-    "detail": "El Tribunal Constitucional publica el texto oficial identificado como Constitución de la República Dominicana 2024."
+    "detail": "El Tribunal Constitucional publica el texto oficial identificado como Constitución de la República Dominicana 2024.",
+    "comparisonReady": true
   }
 ]
