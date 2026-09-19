@@ -8,7 +8,7 @@ availability=document.getElementById('availability'),
 titleA=document.getElementById('titleA'),
 titleB=document.getElementById('titleB');
 
-let data={changes:[]}, versions=[], filter='all';
+let data={changes:[]}, versions=[], comparisons={ready:[]}, filter='all';
 
 function esc(v){return String(v??'').replace(/[&<>\\"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\\':'&#92;','"':'&quot;'}[c]))}
 function tokenize(text){return text.match(/\\s+|[\\p{L}\\p{N}ÁÉÍÓÚÜÑáéíóúüñ¿?¡!.,;:()"'«»\\-–—]+/gu)||[]}
@@ -32,9 +32,9 @@ function option(v){
   const o=document.createElement('option');o.value=v.year;o.textContent=v.label;return o
 }
 function version(y){return versions.find(v=>String(v.year)===String(y))}
-function isReadyPair(x,y){return (String(x)==='2015'&&String(y)==='2024')||(String(x)==='2024'&&String(y)==='2015')}
+function getPair(x,y){const direct=comparisons.ready.find(p=>String(p.from)===String(x)&&String(p.to)===String(y));if(direct)return {pair:direct,reverse:false};const reverse=comparisons.ready.find(p=>String(p.from)===String(y)&&String(p.to)===String(x));if(reverse)return {pair:reverse,reverse:true};return null}
 function renderAvailability(){
-  const va=version(a.value),vb=version(b.value),ready=isReadyPair(a.value,b.value);
+  const va=version(a.value),vb=version(b.value),pair=getPair(a.value,b.value),ready=!!pair;
   titleA.textContent=va?va.year:a.value;titleB.textContent=vb?vb.year:b.value;
   availability.hidden=false;
   if(ready){
@@ -46,7 +46,7 @@ function renderAvailability(){
 }
 function render(){
   renderAvailability();
-  const va=Number(a.value),vb=Number(b.value),reverse=va===2024&&vb===2015,ready=isReadyPair(va,vb);
+  const va=Number(a.value),vb=Number(b.value),pair=getPair(va,vb),reverse=!!pair?.reverse,ready=!!pair;
   const q=search.value.toLowerCase().trim();
   if(!ready){
     count.textContent='';changesEl.innerHTML='<div class="empty"><strong>Sin diff cargado para esta pareja.</strong><br>La versión histórica sí está en el catálogo, pero su comparación artículo por artículo todavía está en construcción.</div>';
@@ -79,9 +79,10 @@ document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',(
 search.addEventListener('input',render);
 Promise.all([
   fetch('/data/constituciones.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar el catálogo');return r.json()}),
+  fetch('/data/comparaciones.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar la matriz de comparaciones');return r.json()}),
   fetch('/data/reforma-2024.json').then(r=>{if(!r.ok)throw new Error('No se pudo cargar la base documental');return r.json()})
-]).then(([catalog,reform])=>{
-  versions=catalog;data=reform;
+]).then(([catalog,pairs,reform])=>{
+  versions=catalog;comparisons=pairs;data=reform;
   versions.forEach(v=>{a.appendChild(option(v));b.appendChild(option(v))});
   a.value='2015';b.value='2024';[a,b].forEach(s=>s.addEventListener('change',render));render()
 }).catch(e=>{
