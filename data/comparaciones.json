@@ -1,0 +1,11 @@
+{
+  "ready": [
+    {
+      "from": 2015,
+      "to": 2024,
+      "dataset": "reforma-2024.json",
+      "label": "Reforma constitucional 2015 → 2024",
+      "description": "Cambios documentados con extractos literales y fuente normativa."
+    }
+  ]
+}
