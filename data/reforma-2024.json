@@ -24,7 +24,11 @@
       "before": "178 diputadas o diputados elegidos por circunscripción territorial.",
       "after": "158 diputadas o diputados elegidos por circunscripción territorial.",
       "note": "Cambio cuantitativo en la representación territorial.",
-      "sourcePage": "50"
+      "sourcePage": "50",
+      "literal": {
+        "before": "Ciento setenta y ocho diputadas o diputados elegidos por circunscripción territorial",
+        "after": "Ciento cincuenta y ocho diputadas o diputados elegidos por circunscripción territorial"
+      }
     },
     {
       "article": 166,
@@ -34,7 +38,11 @@
       "before": "Procurador General Administrativo, designado por el Poder Ejecutivo.",
       "after": "Abogado General de la Administración Pública, representante permanente de la Administración Pública.",
       "note": "Reorganización constitucional de la representación de la Administración Pública.",
-      "sourcePage": "86"
+      "sourcePage": "86",
+      "literal": {
+        "before": "La Administración Pública estará representada permanentemente ante la Jurisdicción Contencioso Administrativa por el Procurador General Administrativo",
+        "after": "El Abogado General de la Administración Pública es el representante permanente de la Administración Pública ante la Jurisdicción Contencioso Administrativa"
+      }
     },
     {
       "article": 167,
@@ -44,7 +52,11 @@
       "before": "Regulaba los requisitos para ser Procurador General Administrativo.",
       "after": "Crea la Oficina del Abogado General de la Administración Pública.",
       "note": "Cambio de objeto completo del artículo.",
-      "sourcePage": "86"
+      "sourcePage": "86",
+      "literal": {
+        "before": "El Procurador General Administrativo deberá reunir las mismas condiciones requeridas para ser Procurador General de Corte de Apelación",
+        "after": "La Oficina del Abogado General de la Administración Pública es una dependencia del Poder Ejecutivo, organizada de conformidad con la ley"
+      }
     },
     {
       "article": 169,
@@ -54,7 +66,11 @@
       "before": "Responsable de la formulación e implementación de la política del Estado contra la criminalidad.",
       "after": "Responsable de formular e implementar la política de persecución penal contra la criminalidad.",
       "note": "Cambio de redacción en la definición y funciones del Ministerio Público.",
-      "sourcePage": "87"
+      "sourcePage": "87",
+      "literal": {
+        "before": "responsable de la formulación e implementación de la política del Estado contra la criminalidad",
+        "after": "responsable de formular e implementar la política de persecución penal contra la criminalidad"
+      }
     },
     {
       "article": 171,
@@ -64,7 +80,11 @@
       "before": "El Presidente de la República designaba al Procurador General y a la mitad de sus procuradores adjuntos.",
       "after": "El Presidente propone al Consejo Nacional de la Magistratura una persona para la designación del Procurador General.",
       "note": "Cambio del mecanismo constitucional de designación.",
-      "sourcePage": "88–89"
+      "sourcePage": "88–89",
+      "literal": {
+        "before": "El Presidente de la República designará al Procurador General de la República y la mitad de sus procuradores adjuntos",
+        "after": "El Presidente de la República, dentro de los primeros cien días de su mandato constitucional, propondrá al Consejo Nacional de la Magistratura una persona"
+      }
     },
     {
       "article": 178,
@@ -74,7 +94,11 @@
       "before": "El octavo integrante era el Procurador General de la República.",
       "after": "El octavo integrante es el Presidente del Tribunal Constitucional.",
       "note": "Cambio en la composición del órgano constitucional.",
-      "sourcePage": "93"
+      "sourcePage": "93",
+      "literal": {
+        "before": "El Procurador General de la República",
+        "after": "El Presidente del Tribunal Constitucional"
+      }
     },
     {
       "article": 179,
@@ -84,7 +108,11 @@
       "before": "Designaba jueces de la Suprema Corte, Tribunal Constitucional y Tribunal Superior Electoral, además de evaluar el desempeño de jueces de la Suprema Corte.",
       "after": "Añade la designación del Procurador General y de la mitad de los procuradores adjuntos a propuesta presidencial.",
       "note": "La nueva atribución se conecta con el cambio del artículo 171.",
-      "sourcePage": "94"
+      "sourcePage": "94",
+      "literal": {
+        "before": "4) Evaluar el desempeño de los jueces de la Suprema Corte de Justicia",
+        "after": "4) Designar el Procurador General de la República y la mitad de los procuradores adjuntos, a propuesta del Presidente de la República"
+      }
     },
     {
       "article": 209,
@@ -94,7 +122,11 @@
       "before": "Las elecciones presidenciales, legislativas e internacionales se celebraban en mayo y las municipales en febrero, de modo separado e independiente.",
       "after": "Las elecciones de los distintos cargos electivos se celebran cada cuatro años y la fecha constitucional indicada es el tercer domingo de mayo.",
       "note": "Cambio del calendario constitucional electoral.",
-      "sourcePage": "105–106"
+      "sourcePage": "105–106",
+      "literal": {
+        "before": "Estas elecciones se celebrarán de modo separado e independiente. Las de presidente, vicepresidente y representantes legislativos",
+        "after": "Estas elecciones se celebrarán el tercer domingo del mes de mayo"
+      }
     },
     {
       "article": 268,
@@ -104,7 +136,11 @@
       "before": "Protegía constitucionalmente la forma de gobierno civil, republicana, democrática y representativa.",
       "after": "Protege también las reglas de elección presidencial establecidas en el artículo 124.",
       "note": "Se amplía el contenido protegido por el artículo 268.",
-      "sourcePage": "128"
+      "sourcePage": "128",
+      "literal": {
+        "before": "Ninguna modificación a la Constitución podrá versar sobre la forma de gobierno que deberá ser siempre civil, republicano, democrático y representativo",
+        "after": "Ninguna modificación a la Constitución podrá versar sobre la forma de gobierno establecida en el artículo 4 de esta Constitución"
+      }
     },
     {
       "article": 274,
@@ -114,7 +150,11 @@
       "before": "Mencionaba al Presidente, Vicepresidente, representantes legislativos y parlamentarios de organismos internacionales.",
       "after": "Incluye además autoridades municipales y los demás funcionarios o representantes electivos.",
       "note": "Alineación constitucional de los períodos de autoridades electivas.",
-      "sourcePage": "131–132"
+      "sourcePage": "131–132",
+      "literal": {
+        "before": "El ejercicio electivo del Presidente y el Vicepresidente de la República, así como de los representantes legislativos",
+        "after": "El ejercicio electivo del Presidente y el Vicepresidente de la República, de los representantes legislativos, los parlamentarios de organismos internacionales, de las autoridades municipales"
+      }
     },
     {
       "article": 278,
@@ -124,7 +164,20 @@
       "before": "No existía un artículo 278 con esta regla general en la Constitución de 2015.",
       "after": "Nuevo artículo 278 con una regla sobre el efecto de futuras reformas durante un mandato electivo.",
       "note": "Artículo nuevo incorporado en 2024.",
-      "sourcePage": "132"
+      "sourcePage": "132",
+      "literal": {
+        "before": "—",
+        "after": "Ningún funcionario de elección popular podrá beneficiarse de una reforma constitucional durante su mandato"
+      }
     }
-  ]
+  ],
+  "officialPublication2015": {
+    "label": "Constitución de la República Dominicana 2015 — Tribunal Constitucional",
+    "url": "https://www.tribunalconstitucional.gob.do/cec/publicaciones/constituci%C3%B3n-de-la-rep%C3%BAblica-dominicana-2015/"
+  },
+  "literalTextSource2015": {
+    "label": "Texto 2015 consultado en copia PDF de ACE Electoral Knowledge Network",
+    "url": "https://aceproject.org/ero-en/regions/americas/DO/republica-dominicana-constitucion-politica-2015/",
+    "note": "Se usa para los extractos literales de esta primera implementación; la publicación institucional del Tribunal Constitucional se mantiene como referencia oficial de la edición 2015."
+  }
 }
